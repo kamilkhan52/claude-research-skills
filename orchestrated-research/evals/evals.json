@@ -1,0 +1,7 @@
+{
+  "skill_name": "orchestrated-research",
+  "evals": [
+    {"id": 1, "prompt": "I work on AI accelerators. Something I keep wondering: why are SRAM-heavy inference chips (Groq, Cerebras, d-Matrix-style) AND HBM-based GPUs both attracting serious investment for LLM inference, when they seem to bet on opposite memory designs? Research it properly — break it into sub-questions, use sub-agents, read primary sources, and give me a well-backed answer. Keep it focused: I'd like it within about an hour, so a handful of sub-agents and one review pass is fine.", "expected_output": "Project directory with research log, per-sub-question notes, a provenance-tagged synthesis, full-text requests instead of abstract reliance, and at least one adversarial review that changed the synthesis.", "files": []},
+    {"id": 2, "prompt": "packaging engineer here. how come the industry is pushing both chiplets (lots of small dies on interposers/bridges) and wafer-scale integration for big AI chips at the same time? those look like opposite bets on die size. can you dig into the literature like a researcher would and tell me what actually explains it — numbers please, and flag anything you couldn't read in full. aim for a focused study, not a month-long one.", "expected_output": "Same structure: decomposition, notes, log, tagged synthesis, full-text handling, adversarial review, versioned synthesis.", "files": []}
+  ]
+}
